@@ -1,0 +1,41 @@
+.select-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 25px 8px;
+    border-radius: 5px;
+    max-width: 234px;
+    width: 100%;
+}
+nav{
+    background-color: rgba(37, 9, 37);
+    color: white;
+    height: 61px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+.select-box header {
+    font-size: 15px;
+}
+.options button {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    background: #56baed;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.select-box .title {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 20px 0;
+}

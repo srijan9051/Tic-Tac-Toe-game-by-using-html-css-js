@@ -1,0 +1,5 @@
+Netlify Hosting:
+https://tic-tac-toe-by-srijan.netlify.app/
+
+Git Hub Hosting:
+https://github.com/srijan9051/Tic-Tac-Toe-game-by-using-html-css-js.git

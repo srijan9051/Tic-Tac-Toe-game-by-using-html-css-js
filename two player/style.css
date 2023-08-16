@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #75caf5;
+}
+nav{
+    background-color: rgba(37, 9, 37);
+    color: white;
+    height: 75px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    list-style: none;
+}
+.gameContainer{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    margin-top: 20px;
+    opacity: 1;
+}
+.box{
+    border: 2px solid aqua;
+    background-color: white;
+    font-size: 8vw;
+    cursor: pointer;
+    color: blue;
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.829);
+}
+.gameInfo{
+    padding: 0 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 20rem;
+}
+.gameInfo h1{
+    position: absolute;
+    top: 81px;
+    left: 17px;
+}
+.imgbox img{
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+.info{
+    font-size: 46px;
+    background-color: #56baed;
+    width: 126px;
+    padding: 10px 17px;
+    padding-left: 28px;
+    margin-bottom: 27px;
+    margin-right: 10px;
+}
+.info2{
+    
+    font-size: 46px;
+    background-color: white;
+    width: 126px;
+    padding: 10px 17px;
+    padding-left: 28px;
+    margin-bottom: 27px;
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#reset{
+    display: block;
+    margin: 37px 8px;
+    padding: 5px 16px;
+    background-color: rgb(246, 218, 218);
+    border-radius: 16px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+    font-weight: bolder;
+    width: 461px;
+    opacity: 0;
+}
+#reset:hover{
+    font-size:37px;
+    background-color: rgb(249, 171, 171);
+    color: black;
+    font-family: cursive;
+}
+#new{
+    display: block;
+    margin: 37px 8px;
+    padding: 5px 16px;
+    background-color: rgb(246, 218, 218);
+    border-radius: 16px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+    font-weight: bolder;
+    width: 461px;
+    opacity: 0;
+}
+#new:hover{
+    font-size:37px;
+    background-color: rgb(249, 171, 171);
+    color: black;
+    font-family: cursive;
+}
+.middle{
+    height: 150px;
+    margin-top: 140px;
+}
+.hide{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
